@@ -1,0 +1,281 @@
+/* Reset default browser styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Header styles */
+header {
+  background-color: #fff947;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.logo {
+  padding: 0px 0;
+}
+
+.logo img {
+  max-width: 12%;
+}
+
+.menu {
+  list-style: none;
+  text-align: right;
+}
+
+.menu li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.menu li a {
+  color: #050505;
+  text-decoration: none;
+}
+
+/* Hero section styles */
+.hero {
+  background-color: #0732ce;
+  text-align: center;
+  padding: 100px 0;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #fff;
+  color: #0732ce;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #eee;
+}
+
+/* Section styles */
+.section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.section p {
+  margin-bottom: 30px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #fff947;
+  color: #010101;
+  padding: 10px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+}
+/* Rest of your existing CSS styles */
+
+.directors-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.director {
+  text-align: center;
+}
+
+.director img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.director h3 {
+  margin-top: 10px;
+}
+/* Rest of your existing CSS styles */
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group textarea {
+  height: 150px;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #3367d6;
+}
+/* Rest of your existing CSS styles */
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  padding: 10px 20px;
+  background-color: #f2f2f2;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tab-button.active {
+  background-color: #4285f4;
+  color: #fff;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+.client-photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.client-photos img {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+  margin: 10px;
+}
+
+.contact-info {
+  margin-top: 40px;
+}
+
+.contact-info h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.contact-info p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+/* Responsive styles for small screens */
+@media (max-width: 768px) {
+  .contact-info h3 {
+    font-size: 16px;
+  }
+
+  .contact-info p {
+    font-size: 14px;
+  }
+}
+
+.address-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.address {
+  width: 48%;
+}
+
+.address h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.address p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Responsive styles for small screens */
+@media (max-width: 768px) {
+  .address-row {
+    flex-wrap: wrap;
+  }
+
+  .address {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .address h3 {
+    font-size: 16px;
+  }
+
+  .address p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+}
